@@ -1,0 +1,89 @@
+.nav{
+  display: grid;
+  grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+  grid-template-rows: 3vh;
+  background-color: black;
+  color: white;
+  list-style:none;
+  padding: 1% 10%;
+  position:fixed;
+  z-index: 3;
+  top:0;
+  width:100%;
+  background-color: #333333;
+}
+
+.nav li{
+  /* margin-left:30%; */
+  font-size: 1em;
+}
+
+.phone-grid{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 500px 500px 500px;
+  width:100%;
+  grid-row-gap: 30px;
+}
+
+h1,h2,a{
+  text-align: center;
+}
+
+h1{
+  font-size: 4em;
+}
+
+h2{
+  margin-top: 0px;
+}
+
+.iPhoneX{
+  background: url('https://www.apple.com/v/iphone-x/e/images/meta/og.png?201807231355');
+  background-size: 100% 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.iPhoneX img{
+  width:100%;
+}
+
+.iPad{
+  background:url('https://vernonchan.com/wp-content/uploads/2018/04/2018-ipad-9-7-header.jpg');
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+.iPad{
+  height: 100%;
+}
+
+.productName{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+
+#learn{
+  display: block;
+  margin: 0 auto;
+}
+
+.iPad img{
+  width:100%;
+}
+
+section{
+  margin-bottom: 5%;
+}
+
+img{
+  width: 100%;
+}
+
+.macbook img{
+  height:500px;
+}
